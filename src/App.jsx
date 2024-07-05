@@ -1,9 +1,16 @@
+import Navbar from './components/navbar/Navbar'
 import './layout.scss'
+import HomePage from './routes/homePage/homePage'
 
 function App() {
   return (
     <div className="layout">
-      Hello World
+      <div className="navbar">
+        <Navbar/>
+      </div>
+      <div className="content">
+        <HomePage/>
+      </div>
     </div>
   )
 }

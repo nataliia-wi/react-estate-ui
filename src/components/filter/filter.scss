@@ -6,7 +6,6 @@
 	h1 {
 		font-weight: 300;
 		font-size: 24px;
-
 	}
 
 	.item {
@@ -16,7 +15,6 @@
 
 		label {
 			font-size: 10px;
-
 		}
 
 		input,
@@ -38,6 +36,7 @@
 	.bottom {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		gap: 20px;
 
 		button {
@@ -45,7 +44,7 @@
 			padding: 10px;
 			border: none;
 			cursor: pointer;
-			background-color: #fece51;
+			background-color: #a85936;
 
 			img {
 				width: 24px;

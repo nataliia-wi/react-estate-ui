@@ -30,7 +30,7 @@ function HomePage() {
 				</div>
 			</div>
 			<div className="imgContainer">
-				<img src="/bg.png" alt="" />
+				<img src={`${import.meta.env.BASE_URL}bg.png`} alt="" />
 			</div>
 		</div>
 	)

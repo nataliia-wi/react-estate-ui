@@ -1,4 +1,5 @@
 import "./filter.scss";
+import search from "/search.png"
 
 function Filter() {
 	return (
@@ -64,7 +65,7 @@ function Filter() {
 					/>
 				</div>
 				<button>
-					<img src="/search.png" alt="" />
+					<img src={search} alt="" />
 				</button>
 			</div>
 		</div>

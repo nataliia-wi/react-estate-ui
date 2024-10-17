@@ -10,7 +10,7 @@ function Login() {
 					<input name="username" type="text" placeholder="Username" />
 					<input name="password" type="password" placeholder="Password" />
 					<button>Login</button>
-					<Link to="/register">{"Don't"} you have an account?</Link>
+					<Link to="register">{"Don't"} you have an account?</Link>
 				</form>
 			</div>
 			<div className="imgContainer">

@@ -40,21 +40,21 @@ function SinglePage() {
 						<p className="title">General</p>
 						<div className="listVertical">
 							<div className="feature">
-								<img src="/utility.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/utility.png`} alt="" />
 								<div className="featureText">
 									<span>Utilities</span>
 									<p>Renter is responsible</p>
 								</div>
 							</div>
 							<div className="feature">
-								<img src="/pet.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/pet.png`} alt="" />
 								<div className="featureText">
 									<span>Pet Policy</span>
 									<p>Pets Allowed</p>
 								</div>
 							</div>
 							<div className="feature">
-								<img src="/fee.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/fee.png`} alt="" />
 								<div className="featureText">
 									<span>Property Fees</span>
 									<p>Must have 3x the rent in total household income</p>
@@ -64,36 +64,36 @@ function SinglePage() {
 						<p className="title">Sizes</p>
 						<div className="sizes">
 							<div className="size">
-								<img src="/size.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/size.png`} alt="" />
 								<span>80 sqft</span>
 							</div>
 							<div className="size">
-								<img src="/bed.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/bed.png`} alt="" />
 								<span>2 beds</span>
 							</div>
 							<div className="size">
-								<img src="/bath.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/bath.png`} alt="" />
 								<span>1 bathroom</span>
 							</div>
 						</div>
 						<p className="title">Nearby Places</p>
 						<div className="listHorizontal">
 							<div className="feature">
-								<img src="/school.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/school.png`} alt="" />
 								<div className="featureText">
 									<span>School</span>
 									<p>250m away</p>
 								</div>
 							</div>
 							<div className="feature">
-								<img src="/pet.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/pet.png`} alt="" />
 								<div className="featureText">
 									<span>Bus Stop</span>
 									<p>100m away</p>
 								</div>
 							</div>
 							<div className="feature">
-								<img src="/fee.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/fee.png`} alt="" />
 								<div className="featureText">
 									<span>Restaurant</span>
 									<p>200m away</p>
@@ -106,11 +106,11 @@ function SinglePage() {
 						</div>
 						<div className="buttons">
 							<button>
-								<img src="/chat.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/chat.png`} alt="" />
 								Send a Message
 							</button>
 							<button>
-								<img src="/save.png" alt="" />
+								<img src={`${import.meta.env.BASE_URL}/save.png`} alt="" />
 								Save the Place
 							</button>
 						</div>

@@ -25,7 +25,7 @@ function Navbar() {
 							alt=""
 						/>
 						<span>Ben Stiller</span>
-						<Link to="profile" className="profile">
+						<Link to="/profile" className="profile">
 							<div className="notification">3</div>
 							<span>Profile</span>
 						</Link>

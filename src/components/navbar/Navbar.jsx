@@ -9,13 +9,13 @@ function Navbar() {
 	return (
 		<nav>
 			<div className="left">
-				<a href="/" className="logo">
+				<a href={`${import.meta.env.BASE_URL}/`} className="logo">
 					<img src={`${import.meta.env.BASE_URL}/logo.png`} alt="" />
 					<span>WOWEstate</span>
 				</a>
-				<a href="/list">List</a>
-				<a href="/login">Login</a>
-				<a href="/register">Register</a>
+				<a href={`${import.meta.env.BASE_URL}/list`}>List</a>
+				<a href={`${import.meta.env.BASE_URL}/login`}>Login</a>
+				<a href={`${import.meta.env.BASE_URL}/register`}>Register</a>
 			</div>
 			<div className="right">
 				{user ? (
@@ -32,8 +32,8 @@ function Navbar() {
 					</div>
 				) : (
 					<>
-						<a href="/">Sign in</a>
-						<a href="/" className="register">
+						<a href={`${import.meta.env.BASE_URL}/`}>Sign in</a>
+						<a href={`${import.meta.env.BASE_URL}/`} className="register">
 							Sign up
 						</a>
 					</>
@@ -46,11 +46,11 @@ function Navbar() {
 					/>
 				</div>
 				<div className={open ? "menu active" : "menu"}>
-					<a href="/">List</a>
-					<a href="/login">Login</a>
-					<a href="/register">Register</a>
-					<a href="/">Sign in</a>
-					<a href="/">Sign up</a>
+					<a href={`${import.meta.env.BASE_URL}/list`}>List</a>
+					<a href={`${import.meta.env.BASE_URL}/login`}>Login</a>
+					<a href={`${import.meta.env.BASE_URL}/register`}>Register</a>
+					<a href={`${import.meta.env.BASE_URL}/`}>Sign in</a>
+					<a href={`${import.meta.env.BASE_URL}/`}>Sign up</a>
 				</div>
 			</div>
 		</nav>

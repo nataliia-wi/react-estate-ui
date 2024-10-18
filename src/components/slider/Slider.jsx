@@ -25,7 +25,7 @@ function Slider({ images }) {
 			{imageIndex !== null && (
 				<div className="fullSlider">
 					<div className="arrow" onClick={() => changeSlide("left")}>
-						<img src={`${import.meta.env.BASE_URL}arrow.png`} alt="" />
+						<img src={`${import.meta.env.BASE_URL}/arrow.png`} alt="" />
 					</div>
 					<div className="imgContainer">
 						<img src={images[imageIndex]} alt="" />

@@ -39,7 +39,7 @@ function SearchBar() {
 				<input type="number" name='minPrice' min={0} max={10000000} placeholder='Min price' />
 				<input type="number" name='maxPrice' min={0} max={10000000} placeholder='Max Price' />
 				<button type="submit">
-					<img src={`${import.meta.env.BASE_URL}search.png`} alt="" />
+					<img src={`${import.meta.env.BASE_URL}/search.png`} alt="" />
 				</button>
 			</form>
 		</div>

@@ -21,7 +21,7 @@ function SinglePage() {
 								<div className="post">
 									<h1>{post.title}</h1>
 									<div className="address">
-										<img src={`${import.meta.env.BASE_URL}pin.png`} alt="" />
+										<img src={`${import.meta.env.BASE_URL}/pin.png`} alt="" />
 										<span>{post.address}</span>
 									</div>
 									<div className="price">$ {post.price}</div>

@@ -15,7 +15,7 @@ function Register() {
 				</form>
 			</div>
 			<div className="imgContainer">
-				<img src={`${import.meta.env.BASE_URL}bg.png`} alt="" />
+				<img src={`${import.meta.env.BASE_URL}/bg.png`} alt="" />
 			</div>
 		</div>
 	);

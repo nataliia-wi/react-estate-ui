@@ -31,7 +31,7 @@ function Slider({ images }) {
 						<img src={images[imageIndex]} alt="" />
 					</div>
 					<div className="arrow" onClick={() => changeSlide("right")}>
-						<img src="/arrow.png" className="right" alt="" />
+						<img src={`${import.meta.env.BASE_URL}/arrow.png`} className="right" alt="" />
 					</div>
 					<div className="close" onClick={() => setImageIndex(null)}>
 						X
